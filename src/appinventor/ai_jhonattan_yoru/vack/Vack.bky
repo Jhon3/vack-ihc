@@ -1,0 +1,374 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="global_declaration" id=",gdLS,*JS=Zz+Air_hSh" x="32" y="-140">
+    <field name="NAME">option</field>
+    <value name="VALUE">
+      <block type="logic_false" id="PGw=CwO2sx;GuEZnj04+">
+        <field name="BOOL">FALSE</field>
+      </block>
+    </value>
+  </block>
+  <block type="component_event" id="dWxZy^QU8+sP]8(+ufid" x="418" y="-24">
+    <mutation component_type="Form" is_generic="false" instance_name="Vack" event_name="Initialize"></mutation>
+    <field name="COMPONENT_SELECTOR">Vack</field>
+    <statement name="DO">
+      <block type="controls_if" id="~_`%SPIphWdV!(15lg0p">
+        <value name="IF0">
+          <block type="logic_negate" id="y~G[A7Z{UdO!-?bT[=}Z">
+            <value name="BOOL">
+              <block type="lexical_variable_get" id="d-{IDTz$^2RNL/%h+uzv">
+                <field name="VAR">global option</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="component_set_get" id="1}mT.@1G=pe8K6=0C`{B">
+            <mutation component_type="Label" set_or_get="set" property_name="Text" is_generic="false" instance_name="Label1"></mutation>
+            <field name="COMPONENT_SELECTOR">Label1</field>
+            <field name="PROP">Text</field>
+            <value name="VALUE">
+              <block type="text" id="$+6[@;2zT|stjIInM4Q!">
+                <field name="TEXT"> Clique em uma das opções acima</field>
+              </block>
+            </value>
+          </block>
+        </statement>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="cb$03B9NQ|xQcUgJ-I@h" x="43" y="27">
+    <mutation component_type="ListView" is_generic="false" instance_name="ListView1" event_name="AfterPicking"></mutation>
+    <field name="COMPONENT_SELECTOR">ListView1</field>
+    <statement name="DO">
+      <block type="lexical_variable_set" id=",9udZ3zCFItJ)h|pwz8W">
+        <field name="VAR">global option</field>
+        <value name="VALUE">
+          <block type="logic_boolean" id="fd7_.*~@$d/zIq:sR$J/">
+            <field name="BOOL">TRUE</field>
+          </block>
+        </value>
+        <next>
+          <block type="component_set_get" id="(7B0IG#Q1Vf^u6Z[SL8%">
+            <mutation component_type="Label" set_or_get="set" property_name="Text" is_generic="false" instance_name="Label1"></mutation>
+            <field name="COMPONENT_SELECTOR">Label1</field>
+            <field name="PROP">Text</field>
+            <value name="VALUE">
+              <block type="text" id="TtAM+B.K$lndn5O:wf0b">
+                <field name="TEXT"></field>
+              </block>
+            </value>
+            <next>
+              <block type="component_set_get" id="fne:=kZ{[2eOc53,_Eko">
+                <mutation component_type="Label" set_or_get="set" property_name="Text" is_generic="false" instance_name="Label2"></mutation>
+                <field name="COMPONENT_SELECTOR">Label2</field>
+                <field name="PROP">Text</field>
+                <value name="VALUE">
+                  <block type="text" id="8${sx]h[.BKI:iTeIM$I">
+                    <field name="TEXT"></field>
+                  </block>
+                </value>
+                <next>
+                  <block type="component_set_get" id="c(rSS-~)FNrzmbmSB,]b">
+                    <mutation component_type="Label" set_or_get="set" property_name="Text" is_generic="false" instance_name="Label3"></mutation>
+                    <field name="COMPONENT_SELECTOR">Label3</field>
+                    <field name="PROP">Text</field>
+                    <value name="VALUE">
+                      <block type="text" id="X,atI#!wPm2v]g2jV2$F">
+                        <field name="TEXT"></field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="component_set_get" id="q+|MMlDeCVh+jL=OO{$a">
+                        <mutation component_type="Label" set_or_get="set" property_name="Text" is_generic="false" instance_name="Label4"></mutation>
+                        <field name="COMPONENT_SELECTOR">Label4</field>
+                        <field name="PROP">Text</field>
+                        <value name="VALUE">
+                          <block type="text" id="^~cEdlPej8c/KnA:.D;g">
+                            <field name="TEXT"></field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="controls_if" id="Rct]U$-4e}[Y[ZY!c-W/">
+                            <mutation elseif="2"></mutation>
+                            <value name="IF0">
+                              <block type="logic_compare" id="aE8{e`C`q?WoaTjY0(zi">
+                                <field name="OP">EQ</field>
+                                <value name="A">
+                                  <block type="math_number" id="ueBL%nT^nHigmQna3]R[">
+                                    <field name="NUM">1</field>
+                                  </block>
+                                </value>
+                                <value name="B">
+                                  <block type="component_set_get" id="A2t`kGTg{4#Py+^Ib@Kx">
+                                    <mutation component_type="ListView" set_or_get="get" property_name="SelectionIndex" is_generic="false" instance_name="ListView1"></mutation>
+                                    <field name="COMPONENT_SELECTOR">ListView1</field>
+                                    <field name="PROP">SelectionIndex</field>
+                                  </block>
+                                </value>
+                              </block>
+                            </value>
+                            <statement name="DO0">
+                              <block type="component_set_get" id="/GP0_[u~vpF`jXvNl#}s">
+                                <mutation component_type="Label" set_or_get="set" property_name="Text" is_generic="false" instance_name="Label1"></mutation>
+                                <field name="COMPONENT_SELECTOR">Label1</field>
+                                <field name="PROP">Text</field>
+                                <value name="VALUE">
+                                  <block type="text" id="=4f.CML~=,3I+`zq/2/w">
+                                    <field name="TEXT"> Nome: Jason Bourne</field>
+                                  </block>
+                                </value>
+                                <next>
+                                  <block type="component_set_get" id="$GINi89cJYWiV?7snzKA">
+                                    <mutation component_type="Label" set_or_get="set" property_name="Text" is_generic="false" instance_name="Label2"></mutation>
+                                    <field name="COMPONENT_SELECTOR">Label2</field>
+                                    <field name="PROP">Text</field>
+                                    <value name="VALUE">
+                                      <block type="text" id="EF@esvtvppHy(yF}(_Hx">
+                                        <field name="TEXT"> Idade: 32 anos</field>
+                                      </block>
+                                    </value>
+                                    <next>
+                                      <block type="component_set_get" id="g/)2G.bC]P4E(OX+em79">
+                                        <mutation component_type="Label" set_or_get="set" property_name="Text" is_generic="false" instance_name="Label3"></mutation>
+                                        <field name="COMPONENT_SELECTOR">Label3</field>
+                                        <field name="PROP">Text</field>
+                                        <value name="VALUE">
+                                          <block type="text" id="PEsEVf;xz?#w4(Z)r^4P">
+                                            <field name="TEXT"> Estado civil: Solteiro</field>
+                                          </block>
+                                        </value>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </statement>
+                            <value name="IF1">
+                              <block type="logic_compare" id="81FhM6-WK857jWf5oWbi">
+                                <field name="OP">EQ</field>
+                                <value name="A">
+                                  <block type="math_number" id="Qs!Lx~AqF=Hb.j(lI~]S">
+                                    <field name="NUM">2</field>
+                                  </block>
+                                </value>
+                                <value name="B">
+                                  <block type="component_set_get" id="]Es{t5o7^Fx%kF1-)N51">
+                                    <mutation component_type="ListView" set_or_get="get" property_name="SelectionIndex" is_generic="false" instance_name="ListView1"></mutation>
+                                    <field name="COMPONENT_SELECTOR">ListView1</field>
+                                    <field name="PROP">SelectionIndex</field>
+                                  </block>
+                                </value>
+                              </block>
+                            </value>
+                            <statement name="DO1">
+                              <block type="component_set_get" id="OZ*=69%_^It9Q%y||mLA">
+                                <mutation component_type="Label" set_or_get="set" property_name="Text" is_generic="false" instance_name="Label1"></mutation>
+                                <field name="COMPONENT_SELECTOR">Label1</field>
+                                <field name="PROP">Text</field>
+                                <value name="VALUE">
+                                  <block type="text" id="n4pXeqS#|M4sMJYE*GRU">
+                                    <field name="TEXT"> Rua: Aurora</field>
+                                  </block>
+                                </value>
+                                <next>
+                                  <block type="component_set_get" id="/*s*WrHN_9#;1P7CQ:7D">
+                                    <mutation component_type="Label" set_or_get="set" property_name="Text" is_generic="false" instance_name="Label2"></mutation>
+                                    <field name="COMPONENT_SELECTOR">Label2</field>
+                                    <field name="PROP">Text</field>
+                                    <value name="VALUE">
+                                      <block type="text" id="rAgM.gbGi(Aj9.d1bl{U">
+                                        <field name="TEXT"> Bairro: Ponta Negra</field>
+                                      </block>
+                                    </value>
+                                    <next>
+                                      <block type="component_set_get" id="ovl[jMmslhFX(y.N]Z*q">
+                                        <mutation component_type="Label" set_or_get="set" property_name="Text" is_generic="false" instance_name="Label3"></mutation>
+                                        <field name="COMPONENT_SELECTOR">Label3</field>
+                                        <field name="PROP">Text</field>
+                                        <value name="VALUE">
+                                          <block type="text" id=":Ex/x6T~O$q^*Sd7j(g2">
+                                            <field name="TEXT"> Cidade: Natal</field>
+                                          </block>
+                                        </value>
+                                        <next>
+                                          <block type="component_set_get" id="l:$qJpXsp7a@NX^VZgjd">
+                                            <mutation component_type="Label" set_or_get="set" property_name="Text" is_generic="false" instance_name="Label4"></mutation>
+                                            <field name="COMPONENT_SELECTOR">Label4</field>
+                                            <field name="PROP">Text</field>
+                                            <value name="VALUE">
+                                              <block type="text" id="d;=ReY@OUb320w*l7urg">
+                                                <field name="TEXT"> Estado:  RN</field>
+                                              </block>
+                                            </value>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </statement>
+                            <value name="IF2">
+                              <block type="logic_compare" id="(#m`Zp?[ZrswX}[$Y$o+">
+                                <field name="OP">EQ</field>
+                                <value name="A">
+                                  <block type="math_number" id="c`l6AB;T+:I)Q61!0knp">
+                                    <field name="NUM">3</field>
+                                  </block>
+                                </value>
+                                <value name="B">
+                                  <block type="component_set_get" id="6+!yO~680TdNu/tvwARH">
+                                    <mutation component_type="ListView" set_or_get="get" property_name="SelectionIndex" is_generic="false" instance_name="ListView1"></mutation>
+                                    <field name="COMPONENT_SELECTOR">ListView1</field>
+                                    <field name="PROP">SelectionIndex</field>
+                                  </block>
+                                </value>
+                              </block>
+                            </value>
+                            <statement name="DO2">
+                              <block type="component_set_get" id="*eEvtuC^~0%5(_k#:$5C">
+                                <mutation component_type="Label" set_or_get="set" property_name="Text" is_generic="false" instance_name="Label1"></mutation>
+                                <field name="COMPONENT_SELECTOR">Label1</field>
+                                <field name="PROP">Text</field>
+                                <value name="VALUE">
+                                  <block type="text" id="fHL[SC|T!L}Hc;1Eg3_i">
+                                    <field name="TEXT"> Tipo Sanguíneo: B+</field>
+                                  </block>
+                                </value>
+                                <next>
+                                  <block type="component_set_get" id="#6~0juGpej)*1KSM?gk;">
+                                    <mutation component_type="Label" set_or_get="set" property_name="Text" is_generic="false" instance_name="Label2"></mutation>
+                                    <field name="COMPONENT_SELECTOR">Label2</field>
+                                    <field name="PROP">Text</field>
+                                    <value name="VALUE">
+                                      <block type="text" id="xQty[uO3x0d`w@%,T|_-">
+                                        <field name="TEXT"> Alergias: Não</field>
+                                      </block>
+                                    </value>
+                                  </block>
+                                </next>
+                              </block>
+                            </statement>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="global_declaration" id="iHJ6AFY?h%i`4:bC}*+@" x="648" y="25">
+    <field name="NAME">opt</field>
+    <value name="VALUE">
+      <block type="logic_false" id="IPEv7^GAlkN6XQ609mp7">
+        <field name="BOOL">FALSE</field>
+      </block>
+    </value>
+  </block>
+  <block type="component_event" id="eUcnB,J0}Bv:MC{rQbo?" x="561" y="120">
+    <mutation component_type="Button" is_generic="false" instance_name="Button3" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Button3</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="ioK{=yTjMIlBs)nhrY++">
+        <value name="SCREEN">
+          <block type="text" id="{~+j;Jhb2!Zw#Vo`(Q]b">
+            <field name="TEXT">clinicas</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="d4U?1Zt:kvkq@]w9#/,c" x="561" y="201">
+    <mutation component_type="Button" is_generic="false" instance_name="Button4" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Button4</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id=",BwLQ%]@S^N{yxv#Sy[t">
+        <value name="SCREEN">
+          <block type="text" id="H=[OPDhNmHw=}spIF{m?">
+            <field name="TEXT">Screen1</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="vlOV9C.kq]H{mfwRB!9Z" x="574" y="300">
+    <mutation component_type="Button" is_generic="false" instance_name="Button2" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Button2</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id=")GeynFW9{r(#ynZD7r#C">
+        <value name="SCREEN">
+          <block type="text" id="h,;eRW:rX3qlw*zKcUDO">
+            <field name="TEXT">Vacinas</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="q5mj%KDYqteY-M@D=Z=-" x="589" y="399">
+    <mutation component_type="Button" is_generic="false" instance_name="Button5" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Button5</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="b+UnVSNxQs/{Y[Bp[Vk^">
+        <value name="SCREEN">
+          <block type="text" id="_*oX`dI,.p#_pxY:MMQV">
+            <field name="TEXT">notificacao</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="|[@cxKI!ah!zi?].Yp%6" x="234" y="591">
+    <mutation component_type="Button" is_generic="false" instance_name="Button3" event_name="TouchUp"></mutation>
+    <field name="COMPONENT_SELECTOR">Button3</field>
+    <statement name="DO">
+      <block type="component_set_get" id=".Ltjwqr4!4q27i!S3aG;">
+        <mutation component_type="Button" set_or_get="set" property_name="BackgroundColor" is_generic="false" instance_name="Button2"></mutation>
+        <field name="COMPONENT_SELECTOR">Button2</field>
+        <field name="PROP">BackgroundColor</field>
+        <value name="VALUE">
+          <block type="color_gray" id="bo^/aWNtBtevf9J9FBoB">
+            <field name="COLOR">#888888</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="`%5q)].|CeJ:RBqr5fSW" x="206" y="642">
+    <mutation component_type="Button" is_generic="false" instance_name="Button4" event_name="TouchUp"></mutation>
+    <field name="COMPONENT_SELECTOR">Button4</field>
+    <statement name="DO">
+      <block type="component_set_get" id="jcgddX(cSVW*qD}uPrj5">
+        <mutation component_type="Button" set_or_get="set" property_name="BackgroundColor" is_generic="false" instance_name="Button2"></mutation>
+        <field name="COMPONENT_SELECTOR">Button2</field>
+        <field name="PROP">BackgroundColor</field>
+        <value name="VALUE">
+          <block type="color_gray" id="S6;r;P53}fSR.XJ*AH,p">
+            <field name="COLOR">#888888</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="1(R*Cp-#+FO2MXIV7#/I" x="206" y="727">
+    <mutation component_type="Button" is_generic="false" instance_name="Button2" event_name="TouchUp"></mutation>
+    <field name="COMPONENT_SELECTOR">Button2</field>
+    <statement name="DO">
+      <block type="component_set_get" id="#^l=V@!pua.SN}QX9rnm">
+        <mutation component_type="Button" set_or_get="set" property_name="BackgroundColor" is_generic="false" instance_name="Button2"></mutation>
+        <field name="COMPONENT_SELECTOR">Button2</field>
+        <field name="PROP">BackgroundColor</field>
+        <value name="VALUE">
+          <block type="color_gray" id="`g6|_?g$zIRyW6`fl7xd">
+            <field name="COLOR">#888888</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <yacodeblocks ya-version="208" language-version="33"></yacodeblocks>
+</xml>

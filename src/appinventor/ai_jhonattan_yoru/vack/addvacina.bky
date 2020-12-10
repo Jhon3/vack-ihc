@@ -1,0 +1,214 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="component_event" id="al+=DNtjo|k,j5_~XH:(" x="-29" y="-217">
+    <mutation component_type="Button" is_generic="false" instance_name="Button1" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Button1</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="wdz7$($RCTv+zBf;fxTg">
+        <value name="SCREEN">
+          <block type="text" id="H$!S(em-RGVlTp.#}$Oc">
+            <field name="TEXT">Vacinas</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="*bcU5UJ=sI,jnz)5Z/T^" x="-544" y="-167">
+    <mutation component_type="Spinner" is_generic="false" instance_name="Spinner1" event_name="AfterSelecting"></mutation>
+    <field name="COMPONENT_SELECTOR">Spinner1</field>
+    <statement name="DO">
+      <block type="controls_if" id="z:*pfzM|BG3w`s}cF|v}">
+        <mutation elseif="3" else="1"></mutation>
+        <value name="IF0">
+          <block type="logic_compare" id=",GB)4i:PN5xNCoAqEH%X">
+            <field name="OP">EQ</field>
+            <value name="A">
+              <block type="math_number" id="!$aM]8}S][XE-X6JWGGw">
+                <field name="NUM">2</field>
+              </block>
+            </value>
+            <value name="B">
+              <block type="component_set_get" id="uAjf0f)}7,lRhi1Ah0Qm">
+                <mutation component_type="Spinner" set_or_get="get" property_name="SelectionIndex" is_generic="false" instance_name="Spinner1"></mutation>
+                <field name="COMPONENT_SELECTOR">Spinner1</field>
+                <field name="PROP">SelectionIndex</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="component_set_get" id=")3HC8J*Hx{AM5K{5q$os">
+            <mutation component_type="Image" set_or_get="set" property_name="Visible" is_generic="false" instance_name="Image1"></mutation>
+            <field name="COMPONENT_SELECTOR">Image1</field>
+            <field name="PROP">Visible</field>
+            <value name="VALUE">
+              <block type="logic_false" id="Jmp$97G#cF#s:ch#0J=K">
+                <field name="BOOL">TRUE</field>
+              </block>
+            </value>
+            <next>
+              <block type="component_set_get" id="1R(wL:=fm/VSwNUsbM$p">
+                <mutation component_type="Image" set_or_get="set" property_name="Picture" is_generic="false" instance_name="Image1"></mutation>
+                <field name="COMPONENT_SELECTOR">Image1</field>
+                <field name="PROP">Picture</field>
+                <value name="VALUE">
+                  <block type="text" id="M[;*FH!wd#x.6kui:Q9d">
+                    <field name="TEXT">bcg.jpg</field>
+                  </block>
+                </value>
+              </block>
+            </next>
+          </block>
+        </statement>
+        <value name="IF1">
+          <block type="logic_compare" id="mi8U*eqs9GOy8[!#mYa?">
+            <field name="OP">EQ</field>
+            <value name="A">
+              <block type="math_number" id="K-WDqVj=m*KXa`frY}nR">
+                <field name="NUM">3</field>
+              </block>
+            </value>
+            <value name="B">
+              <block type="component_set_get" id="}bVr|JS//skx=?4FBQ8K">
+                <mutation component_type="Spinner" set_or_get="get" property_name="SelectionIndex" is_generic="false" instance_name="Spinner1"></mutation>
+                <field name="COMPONENT_SELECTOR">Spinner1</field>
+                <field name="PROP">SelectionIndex</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO1">
+          <block type="component_set_get" id="~g;A._;=l-2sFa/7asz@">
+            <mutation component_type="Image" set_or_get="set" property_name="Visible" is_generic="false" instance_name="Image1"></mutation>
+            <field name="COMPONENT_SELECTOR">Image1</field>
+            <field name="PROP">Visible</field>
+            <value name="VALUE">
+              <block type="logic_false" id="2l,_[=jrmRRp.fgG2|{Q">
+                <field name="BOOL">TRUE</field>
+              </block>
+            </value>
+            <next>
+              <block type="component_set_get" id="AMtX;@S|2{Ot3kb_fc~3">
+                <mutation component_type="Image" set_or_get="set" property_name="Picture" is_generic="false" instance_name="Image1"></mutation>
+                <field name="COMPONENT_SELECTOR">Image1</field>
+                <field name="PROP">Picture</field>
+                <value name="VALUE">
+                  <block type="text" id="X|JHiQy7X5|FVIq]yfr(">
+                    <field name="TEXT">h1n1.jpg</field>
+                  </block>
+                </value>
+              </block>
+            </next>
+          </block>
+        </statement>
+        <value name="IF2">
+          <block type="logic_compare" id="gh!@so1pfLw5_T8$~HN/">
+            <field name="OP">EQ</field>
+            <value name="A">
+              <block type="math_number" id="8Vy|xoe7s(xC`ru6h|Y)">
+                <field name="NUM">4</field>
+              </block>
+            </value>
+            <value name="B">
+              <block type="component_set_get" id="HO.kie)cIH]hD.4lbW`Z">
+                <mutation component_type="Spinner" set_or_get="get" property_name="SelectionIndex" is_generic="false" instance_name="Spinner1"></mutation>
+                <field name="COMPONENT_SELECTOR">Spinner1</field>
+                <field name="PROP">SelectionIndex</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO2">
+          <block type="component_set_get" id="5CQ*kO%BIg$Ss`_m?Pyu">
+            <mutation component_type="Image" set_or_get="set" property_name="Visible" is_generic="false" instance_name="Image1"></mutation>
+            <field name="COMPONENT_SELECTOR">Image1</field>
+            <field name="PROP">Visible</field>
+            <value name="VALUE">
+              <block type="logic_false" id="*__x`];~lxs4,%3@oNf)">
+                <field name="BOOL">TRUE</field>
+              </block>
+            </value>
+            <next>
+              <block type="component_set_get" id="bNd3[TP(U^BZfyS|KeK?">
+                <mutation component_type="Image" set_or_get="set" property_name="Picture" is_generic="false" instance_name="Image1"></mutation>
+                <field name="COMPONENT_SELECTOR">Image1</field>
+                <field name="PROP">Picture</field>
+                <value name="VALUE">
+                  <block type="text" id="aL[G.bd}C{iXWN:R~p-H">
+                    <field name="TEXT">covid.jpg</field>
+                  </block>
+                </value>
+              </block>
+            </next>
+          </block>
+        </statement>
+        <value name="IF3">
+          <block type="logic_compare" id="6$oUhnS@.@5nF7);k4,X">
+            <field name="OP">EQ</field>
+            <value name="A">
+              <block type="math_number" id="f[L+5eEx:Z^+A43V_eXq">
+                <field name="NUM">5</field>
+              </block>
+            </value>
+            <value name="B">
+              <block type="component_set_get" id="YoG[5J:mr:hh_W}6zh0m">
+                <mutation component_type="Spinner" set_or_get="get" property_name="SelectionIndex" is_generic="false" instance_name="Spinner1"></mutation>
+                <field name="COMPONENT_SELECTOR">Spinner1</field>
+                <field name="PROP">SelectionIndex</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO3">
+          <block type="component_set_get" id=".dnkVpVKGpcECr7yTz}N">
+            <mutation component_type="Image" set_or_get="set" property_name="Visible" is_generic="false" instance_name="Image1"></mutation>
+            <field name="COMPONENT_SELECTOR">Image1</field>
+            <field name="PROP">Visible</field>
+            <value name="VALUE">
+              <block type="logic_false" id="eLr82{8?S}0d9.i|wAM@">
+                <field name="BOOL">TRUE</field>
+              </block>
+            </value>
+            <next>
+              <block type="component_set_get" id="+=y1#PL{[k6+cw/!rI)z">
+                <mutation component_type="Image" set_or_get="set" property_name="Picture" is_generic="false" instance_name="Image1"></mutation>
+                <field name="COMPONENT_SELECTOR">Image1</field>
+                <field name="PROP">Picture</field>
+                <value name="VALUE">
+                  <block type="text" id="tb]%;.|jE/CE#RNR]REF">
+                    <field name="TEXT">tetano.jpg</field>
+                  </block>
+                </value>
+              </block>
+            </next>
+          </block>
+        </statement>
+        <statement name="ELSE">
+          <block type="component_set_get" id="$+zpVR*rSobcT*GcP@P/">
+            <mutation component_type="Image" set_or_get="set" property_name="Visible" is_generic="false" instance_name="Image1"></mutation>
+            <field name="COMPONENT_SELECTOR">Image1</field>
+            <field name="PROP">Visible</field>
+            <value name="VALUE">
+              <block type="logic_false" id="YHZPU%b*H-}8z_3Bn8uq">
+                <field name="BOOL">FALSE</field>
+              </block>
+            </value>
+          </block>
+        </statement>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="6Tt;NJWWmG9k^oE(u6X3" x="-27" y="-115">
+    <mutation component_type="Button" is_generic="false" instance_name="Button2" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Button2</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="0!elV%-{rEZMVvzXE{L|">
+        <value name="SCREEN">
+          <block type="text" id="]S@-(R[/%Tj`wD9;IoMO">
+            <field name="TEXT">Vacinas</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <yacodeblocks ya-version="208" language-version="33"></yacodeblocks>
+</xml>

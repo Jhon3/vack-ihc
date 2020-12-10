@@ -1,0 +1,463 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="component_event" id="kj]fZu2TQ4qj.yp.TG=G" x="-730" y="-284">
+    <mutation component_type="ListView" is_generic="false" instance_name="ListView1" event_name="AfterPicking"></mutation>
+    <field name="COMPONENT_SELECTOR">ListView1</field>
+    <statement name="DO">
+      <block type="component_set_get" id="rVbRdF3T576giJ$y)CbQ">
+        <mutation component_type="Label" set_or_get="set" property_name="Text" is_generic="false" instance_name="Label1"></mutation>
+        <field name="COMPONENT_SELECTOR">Label1</field>
+        <field name="PROP">Text</field>
+        <value name="VALUE">
+          <block type="text" id="j;2bI;zn_Jdp5J|Ci8%[">
+            <field name="TEXT"></field>
+          </block>
+        </value>
+        <next>
+          <block type="component_set_get" id="BczvF#AW{MfOk]VY$UsD">
+            <mutation component_type="Label" set_or_get="set" property_name="Text" is_generic="false" instance_name="Label2"></mutation>
+            <field name="COMPONENT_SELECTOR">Label2</field>
+            <field name="PROP">Text</field>
+            <value name="VALUE">
+              <block type="text" id=",)akcxn~T.YJgcV-.)4u">
+                <field name="TEXT"></field>
+              </block>
+            </value>
+            <next>
+              <block type="component_set_get" id="c!_LKksL5m3UOY_IedZA">
+                <mutation component_type="Label" set_or_get="set" property_name="Text" is_generic="false" instance_name="Label3"></mutation>
+                <field name="COMPONENT_SELECTOR">Label3</field>
+                <field name="PROP">Text</field>
+                <value name="VALUE">
+                  <block type="text" id="+5Jb46aEyGYH]_dT|vqB">
+                    <field name="TEXT"></field>
+                  </block>
+                </value>
+                <next>
+                  <block type="component_set_get" id="Q[tlB/CNs^H8]@+!{*0V">
+                    <mutation component_type="CheckBox" set_or_get="set" property_name="Visible" is_generic="false" instance_name="CheckBox1"></mutation>
+                    <field name="COMPONENT_SELECTOR">CheckBox1</field>
+                    <field name="PROP">Visible</field>
+                    <value name="VALUE">
+                      <block type="logic_boolean" id="DEd!4Ua1osG*2FUQ[:*c">
+                        <field name="BOOL">FALSE</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="component_set_get" id=")-Z,^=@}!}h=]/9v6M%V">
+                        <mutation component_type="CheckBox" set_or_get="set" property_name="Visible" is_generic="false" instance_name="CheckBox2"></mutation>
+                        <field name="COMPONENT_SELECTOR">CheckBox2</field>
+                        <field name="PROP">Visible</field>
+                        <value name="VALUE">
+                          <block type="logic_boolean" id="5PmcBG4_Nl:S{LS?_T04">
+                            <field name="BOOL">FALSE</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="controls_if" id="c/dpx.bXJ(R:1UeGZxpv">
+                            <mutation elseif="2"></mutation>
+                            <value name="IF0">
+                              <block type="logic_compare" id="2|UKsrS0t@B5VyaMW^[J">
+                                <field name="OP">EQ</field>
+                                <value name="A">
+                                  <block type="math_number" id="?8~4d1j*Y{%cfsib.a_;">
+                                    <field name="NUM">1</field>
+                                  </block>
+                                </value>
+                                <value name="B">
+                                  <block type="component_set_get" id="rXYvni)P`!l@G52%6H?C">
+                                    <mutation component_type="ListView" set_or_get="get" property_name="SelectionIndex" is_generic="false" instance_name="ListView1"></mutation>
+                                    <field name="COMPONENT_SELECTOR">ListView1</field>
+                                    <field name="PROP">SelectionIndex</field>
+                                  </block>
+                                </value>
+                              </block>
+                            </value>
+                            <statement name="DO0">
+                              <block type="component_set_get" id="sr-XVSz/)ZV]0ooROkWY">
+                                <mutation component_type="Label" set_or_get="set" property_name="Text" is_generic="false" instance_name="Label1"></mutation>
+                                <field name="COMPONENT_SELECTOR">Label1</field>
+                                <field name="PROP">Text</field>
+                                <value name="VALUE">
+                                  <block type="text" id="t@b7SY=4X2TXA,q?J-[=">
+                                    <field name="TEXT"> Situação: OK!</field>
+                                  </block>
+                                </value>
+                                <next>
+                                  <block type="component_set_get" id="nhvh5Ct3(2}TeN2`+/t`">
+                                    <mutation component_type="Label" set_or_get="set" property_name="Text" is_generic="false" instance_name="Label2"></mutation>
+                                    <field name="COMPONENT_SELECTOR">Label2</field>
+                                    <field name="PROP">Text</field>
+                                    <value name="VALUE">
+                                      <block type="text" id="(kE)),gP/gCRttvz!DN^">
+                                        <field name="TEXT"> Data das doses:</field>
+                                      </block>
+                                    </value>
+                                    <next>
+                                      <block type="component_set_get" id="*LUKwY/_^8s?C44]|P@|">
+                                        <mutation component_type="Label" set_or_get="set" property_name="Text" is_generic="false" instance_name="Label3"></mutation>
+                                        <field name="COMPONENT_SELECTOR">Label3</field>
+                                        <field name="PROP">Text</field>
+                                        <value name="VALUE">
+                                          <block type="text" id="x*]5^vvFL6pO_+7@!ZHh">
+                                            <field name="TEXT"> Doenças evitáveis:\n Todas causadas pelo Sars-CoV-2</field>
+                                          </block>
+                                        </value>
+                                        <next>
+                                          <block type="component_set_get" id="P(pAdy-mT8v?)Rl[n-=d">
+                                            <mutation component_type="CheckBox" set_or_get="set" property_name="Text" is_generic="false" instance_name="CheckBox1"></mutation>
+                                            <field name="COMPONENT_SELECTOR">CheckBox1</field>
+                                            <field name="PROP">Text</field>
+                                            <value name="VALUE">
+                                              <block type="text" id="a2)4)x[B,3%S8+-O}P(7">
+                                                <field name="TEXT">01/12/2020</field>
+                                              </block>
+                                            </value>
+                                            <next>
+                                              <block type="component_set_get" id="q11M,bhDY#8,DYq@+K%N">
+                                                <mutation component_type="CheckBox" set_or_get="set" property_name="Text" is_generic="false" instance_name="CheckBox2"></mutation>
+                                                <field name="COMPONENT_SELECTOR">CheckBox2</field>
+                                                <field name="PROP">Text</field>
+                                                <value name="VALUE">
+                                                  <block type="text" id=":.Z(I38~s=b!6axLdp2M">
+                                                    <field name="TEXT">22/12/2020</field>
+                                                  </block>
+                                                </value>
+                                                <next>
+                                                  <block type="component_set_get" id="9[TYQwKXB[Oc{r7nkDwY">
+                                                    <mutation component_type="CheckBox" set_or_get="set" property_name="Visible" is_generic="false" instance_name="CheckBox1"></mutation>
+                                                    <field name="COMPONENT_SELECTOR">CheckBox1</field>
+                                                    <field name="PROP">Visible</field>
+                                                    <value name="VALUE">
+                                                      <block type="logic_boolean" id="/}M+iREJ;(.,Z;gY9TU.">
+                                                        <field name="BOOL">TRUE</field>
+                                                      </block>
+                                                    </value>
+                                                    <next>
+                                                      <block type="component_set_get" id="L:EQ%t+52P)h!}78?hV^">
+                                                        <mutation component_type="CheckBox" set_or_get="set" property_name="Checked" is_generic="false" instance_name="CheckBox1"></mutation>
+                                                        <field name="COMPONENT_SELECTOR">CheckBox1</field>
+                                                        <field name="PROP">Checked</field>
+                                                        <value name="VALUE">
+                                                          <block type="logic_boolean" id="GEkZ1u2uPt[FPx7vKnj-">
+                                                            <field name="BOOL">TRUE</field>
+                                                          </block>
+                                                        </value>
+                                                        <next>
+                                                          <block type="component_set_get" id="DH^[A-|A0]v/{7oIJ.;#">
+                                                            <mutation component_type="CheckBox" set_or_get="set" property_name="Visible" is_generic="false" instance_name="CheckBox2"></mutation>
+                                                            <field name="COMPONENT_SELECTOR">CheckBox2</field>
+                                                            <field name="PROP">Visible</field>
+                                                            <value name="VALUE">
+                                                              <block type="logic_boolean" id="%-u#^-D4lBX8%Z6S6cXR">
+                                                                <field name="BOOL">TRUE</field>
+                                                              </block>
+                                                            </value>
+                                                          </block>
+                                                        </next>
+                                                      </block>
+                                                    </next>
+                                                  </block>
+                                                </next>
+                                              </block>
+                                            </next>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </statement>
+                            <value name="IF1">
+                              <block type="logic_compare" id="^^/L}F*$S,U1Z7cby^x*">
+                                <field name="OP">EQ</field>
+                                <value name="A">
+                                  <block type="math_number" id="]%~XdF*?~egX-oa^NFap">
+                                    <field name="NUM">2</field>
+                                  </block>
+                                </value>
+                                <value name="B">
+                                  <block type="component_set_get" id="7Hsd4d_Zv{`/0RtZgvAk">
+                                    <mutation component_type="ListView" set_or_get="get" property_name="SelectionIndex" is_generic="false" instance_name="ListView1"></mutation>
+                                    <field name="COMPONENT_SELECTOR">ListView1</field>
+                                    <field name="PROP">SelectionIndex</field>
+                                  </block>
+                                </value>
+                              </block>
+                            </value>
+                            <statement name="DO1">
+                              <block type="component_set_get" id="=qKnE,`M1B:e=-)*yHva">
+                                <mutation component_type="Label" set_or_get="set" property_name="Text" is_generic="false" instance_name="Label1"></mutation>
+                                <field name="COMPONENT_SELECTOR">Label1</field>
+                                <field name="PROP">Text</field>
+                                <value name="VALUE">
+                                  <block type="text" id="1$BgE.u)8Q@#,QEbDO)j">
+                                    <field name="TEXT"> Situação: OK!</field>
+                                  </block>
+                                </value>
+                                <next>
+                                  <block type="component_set_get" id="9k9i;6oJyj!UY!80LU|=">
+                                    <mutation component_type="Label" set_or_get="set" property_name="Text" is_generic="false" instance_name="Label2"></mutation>
+                                    <field name="COMPONENT_SELECTOR">Label2</field>
+                                    <field name="PROP">Text</field>
+                                    <value name="VALUE">
+                                      <block type="text" id="6wYa1fJo{MU}^mX*a=RK">
+                                        <field name="TEXT"> Data das doses:</field>
+                                      </block>
+                                    </value>
+                                    <next>
+                                      <block type="component_set_get" id="H+FyyKB3O9q=drmXpOWV">
+                                        <mutation component_type="Label" set_or_get="set" property_name="Text" is_generic="false" instance_name="Label3"></mutation>
+                                        <field name="COMPONENT_SELECTOR">Label3</field>
+                                        <field name="PROP">Text</field>
+                                        <value name="VALUE">
+                                          <block type="text" id="rSgHe)Xo-Xv4bm7_3Ww{">
+                                            <field name="TEXT"> Doenças evitáveis:\n Meningite tuberculosa e tuberculose miliar</field>
+                                          </block>
+                                        </value>
+                                        <next>
+                                          <block type="component_set_get" id="qG^?1NJ5eXXL_M9Erzpl">
+                                            <mutation component_type="CheckBox" set_or_get="set" property_name="Text" is_generic="false" instance_name="CheckBox1"></mutation>
+                                            <field name="COMPONENT_SELECTOR">CheckBox1</field>
+                                            <field name="PROP">Text</field>
+                                            <value name="VALUE">
+                                              <block type="text" id="$X*|X+u(H@]c_|X)-)bJ">
+                                                <field name="TEXT">01/12/2015</field>
+                                              </block>
+                                            </value>
+                                            <next>
+                                              <block type="component_set_get" id="Q?$IkJci`ruMv~Bo@3+w">
+                                                <mutation component_type="CheckBox" set_or_get="set" property_name="Text" is_generic="false" instance_name="CheckBox2"></mutation>
+                                                <field name="COMPONENT_SELECTOR">CheckBox2</field>
+                                                <field name="PROP">Text</field>
+                                                <value name="VALUE">
+                                                  <block type="text" id="MdsE_K$A5%EUQ=)DqO$D">
+                                                    <field name="TEXT">01/12/2025</field>
+                                                  </block>
+                                                </value>
+                                                <next>
+                                                  <block type="component_set_get" id="B4A^Rc=nuLH{ewG*2_Ab">
+                                                    <mutation component_type="CheckBox" set_or_get="set" property_name="Checked" is_generic="false" instance_name="CheckBox1"></mutation>
+                                                    <field name="COMPONENT_SELECTOR">CheckBox1</field>
+                                                    <field name="PROP">Checked</field>
+                                                    <value name="VALUE">
+                                                      <block type="logic_boolean" id="bdBN~h.@$%qVPK,6-Z#u">
+                                                        <field name="BOOL">TRUE</field>
+                                                      </block>
+                                                    </value>
+                                                    <next>
+                                                      <block type="component_set_get" id="I^nbO*LRbJhgZUClQim^">
+                                                        <mutation component_type="CheckBox" set_or_get="set" property_name="Visible" is_generic="false" instance_name="CheckBox1"></mutation>
+                                                        <field name="COMPONENT_SELECTOR">CheckBox1</field>
+                                                        <field name="PROP">Visible</field>
+                                                        <value name="VALUE">
+                                                          <block type="logic_boolean" id="}eJrt}AGq+K.DDm{|jBy">
+                                                            <field name="BOOL">TRUE</field>
+                                                          </block>
+                                                        </value>
+                                                        <next>
+                                                          <block type="component_set_get" id="vSt%Bh{,wQ7sI1(ca11G">
+                                                            <mutation component_type="CheckBox" set_or_get="set" property_name="Visible" is_generic="false" instance_name="CheckBox2"></mutation>
+                                                            <field name="COMPONENT_SELECTOR">CheckBox2</field>
+                                                            <field name="PROP">Visible</field>
+                                                            <value name="VALUE">
+                                                              <block type="logic_boolean" id="P_Tjmim5TWJgiwuf4=]l">
+                                                                <field name="BOOL">TRUE</field>
+                                                              </block>
+                                                            </value>
+                                                          </block>
+                                                        </next>
+                                                      </block>
+                                                    </next>
+                                                  </block>
+                                                </next>
+                                              </block>
+                                            </next>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </statement>
+                            <value name="IF2">
+                              <block type="logic_compare" id="p974c(!9m91pCcS;j25=">
+                                <field name="OP">EQ</field>
+                                <value name="A">
+                                  <block type="math_number" id="KB*wu)xE8d)nScZtCLVc">
+                                    <field name="NUM">3</field>
+                                  </block>
+                                </value>
+                                <value name="B">
+                                  <block type="component_set_get" id="OjBz#Sw%s.B8.Q|eK[(w">
+                                    <mutation component_type="ListView" set_or_get="get" property_name="SelectionIndex" is_generic="false" instance_name="ListView1"></mutation>
+                                    <field name="COMPONENT_SELECTOR">ListView1</field>
+                                    <field name="PROP">SelectionIndex</field>
+                                  </block>
+                                </value>
+                              </block>
+                            </value>
+                            <statement name="DO2">
+                              <block type="component_set_get" id="ai5RoEFvihGgq(md@Tco">
+                                <mutation component_type="Label" set_or_get="set" property_name="Text" is_generic="false" instance_name="Label1"></mutation>
+                                <field name="COMPONENT_SELECTOR">Label1</field>
+                                <field name="PROP">Text</field>
+                                <value name="VALUE">
+                                  <block type="text" id="0!|D-4B1Bw8KDxG_`x_a">
+                                    <field name="TEXT"> Situação: Pendente.</field>
+                                  </block>
+                                </value>
+                                <next>
+                                  <block type="component_set_get" id="yS),3=dL^(XBt}a{AT46">
+                                    <mutation component_type="Label" set_or_get="set" property_name="Text" is_generic="false" instance_name="Label2"></mutation>
+                                    <field name="COMPONENT_SELECTOR">Label2</field>
+                                    <field name="PROP">Text</field>
+                                    <value name="VALUE">
+                                      <block type="text" id="D.K7[!udh9{CkNmxSoll">
+                                        <field name="TEXT"> Data das doses:</field>
+                                      </block>
+                                    </value>
+                                    <next>
+                                      <block type="component_set_get" id="}=W^sdq!KFh{#}2HA1ss">
+                                        <mutation component_type="Label" set_or_get="set" property_name="Text" is_generic="false" instance_name="Label3"></mutation>
+                                        <field name="COMPONENT_SELECTOR">Label3</field>
+                                        <field name="PROP">Text</field>
+                                        <value name="VALUE">
+                                          <block type="text" id="`Zn6rqYq!X;0,X^x}gKF">
+                                            <field name="TEXT"> Doenças evitáveis:\n Gripe suína.</field>
+                                          </block>
+                                        </value>
+                                        <next>
+                                          <block type="component_set_get" id="p-,RJ5!sc{,Q7ZI6zAnY">
+                                            <mutation component_type="CheckBox" set_or_get="set" property_name="Text" is_generic="false" instance_name="CheckBox1"></mutation>
+                                            <field name="COMPONENT_SELECTOR">CheckBox1</field>
+                                            <field name="PROP">Text</field>
+                                            <value name="VALUE">
+                                              <block type="text" id=")s8k%qmlH1~C!C_K:^/1">
+                                                <field name="TEXT">01/11/2020</field>
+                                              </block>
+                                            </value>
+                                            <next>
+                                              <block type="component_set_get" id="wbChtA31)3y38hpiA{oX">
+                                                <mutation component_type="CheckBox" set_or_get="set" property_name="Text" is_generic="false" instance_name="CheckBox2"></mutation>
+                                                <field name="COMPONENT_SELECTOR">CheckBox2</field>
+                                                <field name="PROP">Text</field>
+                                                <value name="VALUE">
+                                                  <block type="text" id=";NI:O^8Q,UCU[X%P=w*u">
+                                                    <field name="TEXT">01/12/2020</field>
+                                                  </block>
+                                                </value>
+                                                <next>
+                                                  <block type="component_set_get" id="!?(3w6T2GALFw)A:~tkv">
+                                                    <mutation component_type="CheckBox" set_or_get="set" property_name="Checked" is_generic="false" instance_name="CheckBox1"></mutation>
+                                                    <field name="COMPONENT_SELECTOR">CheckBox1</field>
+                                                    <field name="PROP">Checked</field>
+                                                    <value name="VALUE">
+                                                      <block type="logic_boolean" id="oh+rVtKwMVSL3^;^@~mU">
+                                                        <field name="BOOL">TRUE</field>
+                                                      </block>
+                                                    </value>
+                                                    <next>
+                                                      <block type="component_set_get" id="+Iw|sD(2;lSA%qyqh%zR">
+                                                        <mutation component_type="CheckBox" set_or_get="set" property_name="Visible" is_generic="false" instance_name="CheckBox1"></mutation>
+                                                        <field name="COMPONENT_SELECTOR">CheckBox1</field>
+                                                        <field name="PROP">Visible</field>
+                                                        <value name="VALUE">
+                                                          <block type="logic_boolean" id="1Ie$:y~p:0l6xcC?6KPN">
+                                                            <field name="BOOL">TRUE</field>
+                                                          </block>
+                                                        </value>
+                                                        <next>
+                                                          <block type="component_set_get" id="#]9E^IeVIaYq(EDw{U|q">
+                                                            <mutation component_type="CheckBox" set_or_get="set" property_name="Visible" is_generic="false" instance_name="CheckBox2"></mutation>
+                                                            <field name="COMPONENT_SELECTOR">CheckBox2</field>
+                                                            <field name="PROP">Visible</field>
+                                                            <value name="VALUE">
+                                                              <block type="logic_boolean" id="9!3%[`-kQfRbV3E|Y;K)">
+                                                                <field name="BOOL">TRUE</field>
+                                                              </block>
+                                                            </value>
+                                                          </block>
+                                                        </next>
+                                                      </block>
+                                                    </next>
+                                                  </block>
+                                                </next>
+                                              </block>
+                                            </next>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </statement>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="wnNknpfXjs[~VZShH`_X" x="-152" y="-225">
+    <mutation component_type="Button" is_generic="false" instance_name="Button4" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Button4</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="afu(eUZy~;?-!f@+r6T0">
+        <value name="SCREEN">
+          <block type="text" id="uTN?P.+gftf]U)kK2D@k">
+            <field name="TEXT">Screen1</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="(bE{yQNlH}l53OOB(AGS" x="-78" y="-143">
+    <mutation component_type="Button" is_generic="false" instance_name="Button3" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Button3</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="[|WS.W75e%V+%%ttRuGw">
+        <value name="SCREEN">
+          <block type="text" id="KN3G,-ZEkt(7{|HuAj|B">
+            <field name="TEXT">clinicas</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="$}~5I`t1o8*HtAP^U`FF" x="-62" y="25">
+    <mutation component_type="Button" is_generic="false" instance_name="Button1" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Button1</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="@P.~;XHl,jN|9GDN6vSy">
+        <value name="SCREEN">
+          <block type="text" id="GVj+._khNKc^z$=KDpGi">
+            <field name="TEXT">Vack</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="jP8sKSU^!2z3Nr%R)(AU" x="-117" y="306">
+    <mutation component_type="Button" is_generic="false" instance_name="Button6" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Button6</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="_Y^?UY,T7zGjv/8OOsci">
+        <value name="SCREEN">
+          <block type="text" id="PG%(%^2J,)~.0kuGej7g">
+            <field name="TEXT">addvacina</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <yacodeblocks ya-version="208" language-version="33"></yacodeblocks>
+</xml>
